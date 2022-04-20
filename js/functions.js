@@ -9,18 +9,18 @@
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
 function sayHello(name) {
-    alert("Hello " + name);
+    return "Hello " + (name);
     name = ('Rob');
-}
 }
 /**
  * TODO:
  * Call the function 'sayHello' and pass your name as a string literal argument.
  * Store the result of the function call in a variable named 'helloMessage'.
  *
- * console.log 'helloMessage' to check your work
- */
+  console.log 'helloMessage' to check your work
 
+ let helloMessage = sayHello(name"Rob')
+ console.log(HelloMessage
 /**
  * TODO:
  * Store your name as a string in a variable named 'myName', and pass that
@@ -49,6 +49,10 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
+
+function istwo(num) {
+    return num == 2;
+}
 
 /**
  * TODO:
